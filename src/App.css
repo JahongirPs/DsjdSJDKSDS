@@ -1,0 +1,78 @@
+.top {
+  padding-top: 20px;
+}
+
+body{
+  background-color: #007BFF;
+}
+
+.images {
+  width: 100%;
+  object-fit: contain;
+  
+}
+
+
+.card {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  margin: 10px;
+  height: 97%;
+  width: 100%;
+  
+}
+
+.flex {
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  font-size: 20px;
+  font-weight: 700;
+  background-color: #fff;
+}
+
+.text {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  
+}
+
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.action-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+
+.price {
+font-weight: 700;
+padding-bottom: 5px;
+
+}
+
+.btn-primary {
+  border: none;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 5px;
+  background-color: black;
+}
+
+.btn-primary:hover{
+  scale: 1.1;
+  background-color: rgb(34, 34, 34);
+}
